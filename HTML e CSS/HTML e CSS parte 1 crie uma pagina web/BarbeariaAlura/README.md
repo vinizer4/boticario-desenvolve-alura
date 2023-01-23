@@ -4,11 +4,11 @@
 </h1>
 
 
-<h1 align="center">
-    <img src="https://ik.imagekit.io/jlzh3neixu/barbearia_tRu7SCLIQ.png">
-</h1>
 
 ---
+
+![image](https://user-images.githubusercontent.com/85684965/214153688-2f63b1de-a21d-4af4-a275-1a3962667cc8.png)
+
 
 ## ✂ Sobre
 
