@@ -31,4 +31,4 @@ Foram utilizadas as seguintes ferramentas:
 ## 🏷Author
 
 Made  by Vinizer4
-- [Linkedin]()
+- [Linkedin](https://www.linkedin.com/in/vinicius-teixeira-saraiva/)
