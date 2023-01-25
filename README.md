@@ -20,7 +20,7 @@ Saiba mais sobre o Desenvolve: https://desenvolve.grupoboticario.com.br/
 
 Esse repositório tem como objetivo documentar minha trajetória durante o programa desenvolve, navegue entre para descubrir os projetos criados duranto a formação na trilha fullstack.
 
-O repositório estara separado por projeto cada projeto tera seu próprio README documentando todo o processo, abaixo os cursos separados por semana:
+O repositório estará separado por projeto cada projeto tera seu próprio README documentando todo o processo, abaixo os cursos separados por semana:
 
 
 <br>
