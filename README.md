@@ -27,9 +27,7 @@ O repositório estara separado por projeto cada projeto tera seu próprio README
 <div style="margin: 5px">
 <div style="display: inline_block" align="left" >
 <img align="left" style="width:200px; height:200px" src="https://media.giphy.com/media/3ohuAxV0DfcLTxVh6w/giphy.gif"/>
-</div>
-
-<div style="display: inline_block" align="center">
+    <div style="display: inline_block" align="center">
     <br>
     <h2>🛠 Skills abordadas no programa</h2>
     <br>
@@ -52,7 +50,7 @@ O repositório estara separado por projeto cada projeto tera seu próprio README
     <br>
     <br>
     </div>
-     <br>
+</div>
 
 
 | Semana  | Curso                                                                                           |	
