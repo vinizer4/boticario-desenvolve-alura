@@ -96,6 +96,6 @@ O repositório estara separado por projeto cada projeto tera seu próprio README
 | 23.     | React: testando os seus componentes
 
 
-<img align="right" style="width:400px; height:450px" src="https://media.giphy.com/media/SiUV5nib8Rm4U/giphy.gif"/>
 
-<img align="right" style="width:300px; height:350px" src="https://media.giphy.com/media/3ohuAxV0DfcLTxVh6w/giphy.gif"/>
+
+<img align="center" style="width:400px; height:450px" src="https://media.giphy.com/media/3ohuAxV0DfcLTxVh6w/giphy.gif"/>
