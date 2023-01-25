@@ -27,9 +27,9 @@ O repositório estara separado por projeto cada projeto tera seu próprio README
 <div style="margin: 5px">
 <div style="display: inline_block" align="left" >
 <img align="left" style="width:200px; height:200px" src="https://media.giphy.com/media/3ohuAxV0DfcLTxVh6w/giphy.gif"/>
+</div>
     <div style="display: inline_block" align="center">
     <br>
-    <h3>🛠 Stacks do Desenvolve</h3>
     <br>
     <img align="center" alt="" height="40em" width="40em" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
     <img align="center" alt="" height="40em" width="40em" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
@@ -46,7 +46,6 @@ O repositório estara separado por projeto cada projeto tera seu próprio README
     <img align="center" alt="" height="40em" width="40em" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg">
     <img align="center" alt="" height="40em" width="40em" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg">
     <img align="center" alt="" height="40em" width="40em" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
-    </div>
     </div>
     <br>
     <br>
