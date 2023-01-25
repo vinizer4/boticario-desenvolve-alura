@@ -29,7 +29,7 @@ O repositório estara separado por projeto cada projeto tera seu próprio README
 <img align="left" style="width:200px; height:200px" src="https://media.giphy.com/media/3ohuAxV0DfcLTxVh6w/giphy.gif"/>
     <div style="display: inline_block" align="center">
     <br>
-    <h2>🛠 Skills abordadas no programa</h2>
+    <h2>🛠 Stacks do Desenvolve</h2>
     <br>
     <img align="center" alt="" height="40em" width="40em" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
     <img align="center" alt="" height="40em" width="40em" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
