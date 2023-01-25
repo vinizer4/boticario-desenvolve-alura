@@ -24,13 +24,8 @@ O repositório estara separado por projeto cada projeto tera seu próprio README
 
 
 <br>
-<div style="margin: 5px">
-<div style="display: inline_block" align="left" >
-<img align="center" style="width:300px; height:300px" src="https://media.giphy.com/media/3ohuAxV0DfcLTxVh6w/giphy.gif"/>
-    <br>
-</div>
-</div>
 <div style="display: inline_block" align="center">
+    <h2>🛠️ Stacks desenvolvidas no desenvolve</h2>
     <br>
     <br>
     <img align="center" alt="" height="40em" width="40em" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
@@ -104,4 +99,4 @@ O repositório estara separado por projeto cada projeto tera seu próprio README
 
 <br>
 <br>
-<img align="center" style="width:400px; height:400px" src="https://media.giphy.com/media/SiUV5nib8Rm4U/giphy.gif"/>
+<img align="center" style="width:400px; height:400px" src="https://media.giphy.com/media/3ohuAxV0DfcLTxVh6w/giphy.gif"/>
