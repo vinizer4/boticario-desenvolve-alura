@@ -5,13 +5,7 @@
 
 
 ```javascript
-import React from "react"
-
-function App() {
-  return (
-          <div>gente que [desenvolve]</div>
-  )
-}
+console.log("gente que[desenvolve])
 ```
 
 Desenvolve
@@ -34,6 +28,7 @@ O repositório estara separado por projeto cada projeto tera seu próprio README
 <div style="display: inline_block" align="left" >
 <img align="left" style="width:250px; height:250px" src="https://media.giphy.com/media/3ohuAxV0DfcLTxVh6w/giphy.gif"/>
 </div>
+<br>
 
 <div style="display: inline_block" align="center">
     <br>
