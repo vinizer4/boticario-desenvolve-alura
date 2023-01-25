@@ -24,11 +24,10 @@ O repositório estara separado por projeto cada projeto tera seu próprio README
 
 
 <br>
-<div>
+<div style="margin: 5px">
 <div style="display: inline_block" align="left" >
-<img align="left" style="width:250px; height:250px" src="https://media.giphy.com/media/3ohuAxV0DfcLTxVh6w/giphy.gif"/>
+<img align="left" style="width:200px; height:200px" src="https://media.giphy.com/media/3ohuAxV0DfcLTxVh6w/giphy.gif"/>
 </div>
-<br>
 
 <div style="display: inline_block" align="center">
     <br>
