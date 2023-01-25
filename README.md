@@ -27,8 +27,10 @@ O repositório estara separado por projeto cada projeto tera seu próprio README
 <div style="margin: 5px">
 <div style="display: inline_block" align="left" >
 <img align="left" style="width:200px; height:200px" src="https://media.giphy.com/media/3ohuAxV0DfcLTxVh6w/giphy.gif"/>
+    <br>
 </div>
-    <div style="display: inline_block" align="center">
+</div>
+<div style="display: inline_block" align="center">
     <br>
     <br>
     <img align="center" alt="" height="40em" width="40em" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
@@ -49,7 +51,6 @@ O repositório estara separado por projeto cada projeto tera seu próprio README
     </div>
     <br>
     <br>
-</div>
 
 
 | Semana  | Curso                                                                                           |	
