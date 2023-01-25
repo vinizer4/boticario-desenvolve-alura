@@ -45,7 +45,7 @@ Esse repositório tem como objetivo documentar minha trajetória durante o progr
 
 O repositório estara separado por projeto cada projeto tera seu próprio README documentando todo o processo, abaixo os cursos separados por semana:
 
-<img align="right" style="width:300px; height:350px" src="https://media.giphy.com/media/3ohuAxV0DfcLTxVh6w/giphy.gif"/>
+<img align="right" style="width:350px; height:350px" src="https://media.giphy.com/media/3ohuAxV0DfcLTxVh6w/giphy.gif"/>
 
 | Semana  | Curso                                                                                           |	
 |:-------:|-------------------------------------------------------------------------------------------------|
@@ -97,5 +97,6 @@ O repositório estara separado por projeto cada projeto tera seu próprio README
 
 
 
-
-<img align="center" style="width:400px; height:450px" src="https://media.giphy.com/media/3ohuAxV0DfcLTxVh6w/giphy.gif"/>
+<br>
+<br>
+<img align="center" style="width:400px; height:400px" src="https://media.giphy.com/media/SiUV5nib8Rm4U/giphy.gif"/>
