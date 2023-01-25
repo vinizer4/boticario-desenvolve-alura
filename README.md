@@ -5,7 +5,7 @@
 
 
 ```javascript
-console.log("gente que[desenvolve])
+console.log("gente que[desenvolve]")
 ```
 
 Desenvolve
