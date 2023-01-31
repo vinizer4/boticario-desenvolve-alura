@@ -22,6 +22,15 @@ Esse repositório tem como objetivo documentar minha trajetória durante o progr
 
 O repositório estará separado por projeto cada projeto tera seu próprio README documentando todo o processo, abaixo os cursos separados por semana:
 
+## Projeto Desenvolve Social Media ⚡
+
+Durante o programa criamos a comunidade Master Dev's junto a outros devs do programa nos reunimos para criar um projeto próprio.
+
+A 💡 é criar uma aplicação de uma rede social para devs com a temática do desenvolve, criamos uma organização no github a Master Devs https://github.com/Master-Dev-s.
+
+Organizamos o projeto no Jira simulando a metologia Scrum trabalhando com sprints e dividindo as tasks entre o time, vocês podem acompanhar o projeto através desse repositório: https://github.com/Master-Dev-s/DesenvolveSocialMedia.
+
+A proposta e finalizar o projeto até o final do programa, atualmente está em desenvolvimento...
 
 <br>
 <div style="display: inline_block" align="center">
