@@ -26,7 +26,11 @@ O repositório estará separado por projeto cada projeto tera seu próprio READM
 
 Durante o programa criamos a comunidade Master Dev's junto a outros devs do programa nos reunimos para criar um projeto próprio.
 
-A 💡 é criar uma aplicação de uma rede social para devs com a temática do desenvolve, criamos uma organização no github a Master Devs https://github.com/Master-Dev-s.
+A 💡 é criar uma aplicação de uma rede social para devs com a temática do desenvolve, criamos uma organização no github a Master Devs
+
+
+<a href="https://github.com/Master-Dev-s."><img src="https://user-images.githubusercontent.com/85684965/215915020-f28b91ff-8a04-4660-a48b-75bd42dbb11f.png"></img></a>
+
 
 Organizamos o projeto no Jira simulando a metologia Scrum trabalhando com sprints e dividindo as tasks entre o time, vocês podem acompanhar o projeto através desse repositório: https://github.com/Master-Dev-s/DesenvolveSocialMedia.
 
