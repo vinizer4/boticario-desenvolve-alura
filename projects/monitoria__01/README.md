@@ -56,7 +56,7 @@
 
 <p>
   <a
-    href="https://barbaraishioka.github.io/desenvolve__gbtech__2023/projects/monitoria__01"
+    href="https://vinizer4.github.io/BoticarioDesenvolveAlura/projects/monitoria__01"
     >Visite o projeto online</a
   >
 </p>
@@ -69,7 +69,7 @@
 
 <p>
   Feito com ♥ by
-  <a href="https://www.linkedin.com/in/barbaraishioka/">Bárbara Ishioka</a>
+  <a href="https://www.linkedin.com/in/vinicius-teixeira-saraiva/">Vinicius Teixeira Saraiva</a>
 </p>
 
 <p align="right"><a href="#top">⬆️ Voltar ao topo</a></p>

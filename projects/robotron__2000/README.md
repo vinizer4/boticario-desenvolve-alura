@@ -37,7 +37,7 @@
 
 <h2 id="projeto">💻 Projeto</h2>
 
-<p><a href="https://barbaraishioka.github.io/desenvolve__gbtech__2023/projects/robotron__2000">Visite o projeto online</a></p>
+<p><a href="https://vinizer4.github.io/BoticarioDesenvolveAlura/projects/robotron__2000">Visite o projeto online</a></p>
 
 <h2 id="licenca">📝 Licença</h2>
 
@@ -45,6 +45,6 @@
 
 <h1></h1>
 
-<p>Feito com ♥ by <a href="https://www.linkedin.com/in/barbaraishioka/">Bárbara Ishioka</a></p>
+<p>Feito com ♥ by <a href="https://www.linkedin.com/in/vinicius-teixeira-saraiva/">Vinicius Teixeira Saraiva</a></p>
 
 <p align="right"><a href="#top">⬆️ Voltar ao topo</a></p>
