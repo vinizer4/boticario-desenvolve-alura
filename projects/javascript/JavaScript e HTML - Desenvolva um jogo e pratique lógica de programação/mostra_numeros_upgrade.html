@@ -1,0 +1,34 @@
+<meta charset="UTF-8" />
+
+<!-- Roberta quer uma dificuldade um pouco maior em seu programa. Agora ela precisa imprimir todos os números entre 30 e 40 (inclusive 30 e 40), porém os números 33 e 37 não devem ser impressos! No final, o trecho de código precisa ter a palavra "FIM". Use o while para essa tarefa.
+
+Com base nisso, qual é a alternativa com a escrita de código correta?
+
+DICA: o if pode ajudar a Roberta! -->
+
+<script>
+  function pulaLinha() {
+    document.write("<br>");
+    document.write("<br>");
+  }
+
+  function mostra(frase) {
+    document.write(frase);
+    pulaLinha();
+  }
+
+  let contador = 30;
+
+  while (contador <= 40) {
+    if (contador == 33) {
+      contador++;
+    } else if (contador == 37) {
+      contador++;
+    } else {
+      mostra(contador);
+      contador++;
+    }
+  }
+
+  mostra("FIM");
+</script>

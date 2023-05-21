@@ -1,0 +1,87 @@
+<!-- Além do que foi mostrado na aula, fiz um upgrade e adicionei pontuação e tentativas. -->
+
+<canvas width="600" height="400"></canvas>
+
+<h1>Pontos: <span id="pontos">0</span></h1>
+<h1>Tentativas: <span id="tentativas">5</span></h1>
+
+<script>
+  let tela = document.querySelector("canvas");
+  let pincel = tela.getContext("2d");
+
+  pincel.fillStyle = "lightgray";
+  pincel.fillRect(0, 0, 600, 400);
+
+  function desenhaCirculo(x, y, raio, cor) {
+    pincel.fillStyle = cor;
+    pincel.beginPath();
+    pincel.arc(x, y, raio, 0, 2 * Math.PI);
+    pincel.fill();
+  }
+
+  function limpaTela() {
+    pincel.clearRect(0, 0, 600, 400);
+  }
+
+  let raio = 10;
+  let xAleatorio;
+  let yAleatorio;
+
+  function desenhaAlvo(x, y) {
+    desenhaCirculo(x, y, raio + 20, "red");
+    desenhaCirculo(x, y, raio + 10, "white");
+    desenhaCirculo(x, y, raio, "red");
+  }
+
+  function sorteiaPosicao(maximo, minimo) {
+    return Math.floor(Math.random() * (maximo - minimo) + minimo);
+  }
+
+  function atualizaTela() {
+    limpaTela();
+    pincel.fillStyle = "lightgray";
+    pincel.fillRect(0, 0, 600, 400);
+    xAleatorio = sorteiaPosicao(570, 30);
+    yAleatorio = sorteiaPosicao(370, 30);
+    desenhaAlvo(xAleatorio, yAleatorio);
+  }
+
+  setInterval(atualizaTela, 1000);
+
+  let pontos = 0;
+  let tentativas = 5;
+  let totalPontos = document.querySelector("#pontos");
+  let totalTentativas = document.querySelector("#tentativas");
+
+  function dispara(evento) {
+    let x = evento.pageX - tela.offsetLeft;
+    let y = evento.pageY - tela.offsetTop;
+
+    if (
+      x > xAleatorio - raio &&
+      x < xAleatorio + raio &&
+      y > yAleatorio - raio &&
+      y < yAleatorio + raio
+    ) {
+      pontos++;
+      totalPontos.textContent = pontos;
+      if (pontos >= 10) {
+        setTimeout(function () {
+          alert("Ganhou!!");
+          location.reload();
+        }, 100);
+      }
+    } else {
+      tentativas--;
+      totalTentativas.textContent = tentativas;
+      if (tentativas <= 0) {
+        setTimeout(function () {
+          alert("Perdeu");
+          location.reload();
+        }, 100);
+      }
+    }
+  }
+
+  tela.onclick = dispara;
+</script>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Manipulando o DOM - Aula 3</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h3>Aluratintas em estoque:</h3>
+
+    <ul class="lista" data-lista="AAA">
+      <li cor="laranja" tipo="tinta-exterior" class="item">Tinta laranja</li>
+      <li cor="vermelho" tipo="tinta-interior" class="item">Tinta vermelha</li>
+      <li cor="branco" tipo="tinta-interior" class="item">Tinta branca</li>
+      <li cor="amarelo" tipo="tinta-exterior" class="item">Tinta amarela</li>
+      <li cor="rosa" tipo="tinta-exterior" class="item">Tinta rosa</li>
+      <li cor="preto" tipo="tinta-exterior" class="item">Tinta preta</li>
+    </ul>
+
+    <a href="https://alura.com.br/" target="_blank"
+      ><img
+        src="https://www.alura.com.br/assets/img/home/alura-logo.svg"
+        alt=""
+        class="alura-logo"
+    /></a>
+
+    <button data-acao="mostrarLista">Mostrar</button>
+    <button data-acao="esconderLista">Esconder</button>
+
+    <script>
+      const lista = document.querySelector("[data-lista]");
+      const button = document.querySelectorAll("[data-acao]");
+
+      button.forEach((elemento) => {
+        elemento.addEventListener("click", () => {
+          if (elemento.dataset.acao === "esconderLista") {
+            lista.dataset.lista = "esconder";
+          } else {
+            lista.dataset.lista = "mostrar";
+          }
+        });
+      });
+
+      /*
+      CÓDIGO DO INSTRUTOR
+
+      JAVASCRIPT:
+      const lista = document.querySelector("ul");
+      document.querySelector("#botao").addEventListener("click", () => {
+        lista.setAttribute("data-lista", "mostrar");
+      });
+
+      document.querySelector(".close").addEventListener("click", () => {
+        lista.setAttribute("data-lista", "esconder");
+      });
+
+      CSS: 
+      [data-lista="mostrar"] { display: block; } [data-lista="esconder"] { display: none; }
+
+      Explicação do código:
+
+      A variável lista, serve para referenciar a ul, utilizando o método querySelector.
+
+      A segunda linha de código cria um evento de clique, referenciando o botão, pelo id #botao. Essa mesma linha poderia ser escrita da seguinte forma: const botao = document.querySelector("#botao") botao.addEventListener("click", () =>
+
+      No método addEventListener, é passado o que deve acontecer com o clique, que é alterar algum atributo, com o método setAttribute, de "data-lista", para "mostrar".
+
+      Esses são os data attributes no arquivo CSS:
+
+      [data-lista="mostrar"] { display: block; } [data-lista="esconder"] { display: none; }
+
+      O segundo bloco de código realiza a mesma operação de alteração dos data-attributes, só que alterando dessa vez a partir do clique no botão com a classe .close
+       */
+    </script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "desenvolve__gbtech__2023",
+  "version": "1.0.0",
+  "description": "<br />\r <div id=\"top\" align=\"center\">\r   <h1>Programa Desenvolve 3ª Edição - 2023</h1>",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

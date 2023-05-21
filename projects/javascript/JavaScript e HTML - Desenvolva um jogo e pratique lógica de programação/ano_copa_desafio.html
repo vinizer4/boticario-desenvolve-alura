@@ -1,0 +1,30 @@
+<meta charset="UTF-8" />
+
+<!-- Francisco assistiu aos vídeos do treinamento de "Lógica de Programação I" e criou um programa que exibe todos os anos em que ocorreram Copa do Mundo desde 1930 até uma data limite. A data limite quem fornece é o usuário, a informação é requisitada por meio da função prompt() e a conversão do valor digitado para um número é feito pela função parseInt(). Observe o código de Francisco:
+
+Contudo, o navegador de Francisco exibe milhares de vezes a mensagem "1930 tem copa"! E nunca é exibida a mensagem "Ufa! Esses foram...". Qual a razão do código de Francisco não funcionar como esperado?
+
+Altere-o para que exiba corretamente todas as copas de 1930 até a data limite informada. -->
+
+<script>
+  function pulaLinha() {
+    document.write("<br>");
+  }
+
+  function mostra(frase) {
+    document.write(frase);
+    pulaLinha();
+  }
+
+  var anoCopa = 1930;
+  var limite = parseInt(prompt("Qual é o ano limite?"));
+
+  while (anoCopa <= limite) {
+    mostra(anoCopa + " tem copa!");
+    anoCopa = anoCopa + 4;
+  }
+
+  // anoCopa = anoCopa + 4;
+
+  mostra("Ufa! Esses foram os anos de copa até " + limite);
+</script>

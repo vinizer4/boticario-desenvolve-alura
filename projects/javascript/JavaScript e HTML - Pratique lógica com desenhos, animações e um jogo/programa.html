@@ -1,0 +1,27 @@
+<canvas width="600" height="400"></canvas>
+
+<script>
+  let tela = document.querySelector("canvas");
+  let pincel = tela.getContext("2d");
+
+  pincel.fillStyle = "lightgray"; // escolher a cor
+  pincel.fillRect(0, 0, 600, 400); // desenhar um retangulo no eixo x, eixo y, width, height
+
+  pincel.fillStyle = "green"; // escolher a cor
+  pincel.fillRect(0, 0, 200, 400); // desenhar um retangulo no eixo x, eixo y, width, height
+
+  pincel.fillStyle = "red"; // escolher a cor
+  pincel.fillRect(400, 0, 200, 400); // desenhar um retangulo no eixo x, eixo y, width, height
+
+  pincel.fillStyle = "yellow"; // escolher a cor
+  pincel.beginPath(); // iniciar um desenho, no caso um triangulo
+  pincel.moveTo(300, 200); // mover o pincel para a posição eixo x, eixo y
+  pincel.lineTo(200, 400); // desenhar uma linha na direção do eixo x, eixo y
+  pincel.lineTo(400, 400); // desenhar uma linha na direção do eixo x, eixo y
+  pincel.fill(); // preencher com a cor
+
+  pincel.fillStyle = "blue"; // escolher a cor
+  pincel.beginPath(); // iniciar um desenho
+  pincel.arc(300, 200, 50, 0, 2 * 3.14); // desenhar um círculo no eixo x, eixo y, raio, ângulo inicial e final
+  pincel.fill(); // preencher com a cor
+</script>

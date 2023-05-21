@@ -1,0 +1,20 @@
+<meta charset="UTF-8" />
+
+<!-- Temos uma função chamada tchau. Quando o programa é carregado no navegador, nada é exibido. Isso ocorre, porque só declaramos a função. Em nenhum momento estamos chamando-a. Para executá-la assim que a página é carregada, precisamos fazer tchau() imediatamente após sua declaração.
+
+Contudo, queremos chamar a função apenas quando o usuário clicar em um botão específico da nossa página, não o botão de alert e sim o botão HTML
+
+Veja que no mundo HTML conseguimos criar o botão por meio da TAG <button> e no mundo JavaScript temos a função tchau. Precisamos utilizar uma função para ligar o botão. Com essa ligação, toda vez que clicarmos no botão a função tchau ela será chamada e o alerta será exibido para o usuário.
+
+Qual das opções abaixo busca o botão no mundo HTML e o associa com a função tchau no mundo JavaScript? -->
+
+<button>Clique-me</button>
+
+<script>
+  function tchau() {
+    alert("Tchau!!!!!");
+  }
+
+  let button = document.querySelector("button");
+  button.onclick = tchau;
+</script>

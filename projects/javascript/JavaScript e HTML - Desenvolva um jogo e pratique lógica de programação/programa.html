@@ -1,0 +1,84 @@
+<meta charset="UTF-8" />
+
+<script>
+  // document.write("A idade do Flávio é ");
+  // document.write(18 + 20); // 38
+  // // document.write(18 + "20"); // 1820
+  // // document.write("18" + "20"); // 1820
+
+  // document.write("<br><br>");
+
+  // document.write("Flávio nasceu em ");
+  // document.write(2016 - 39); // 1977
+
+  // document.write("<br><br>");
+
+  // document.write("Flávio nasceu em " + (2016 - 39)); // Flávio nasceu em 1977
+  // // document.write("Flavio nasceu em " + 2016 - 39); // NaN
+
+  // document.write("<br><br>");
+
+  // document.write("A média da idade é ");
+  // document.write((20 + 10 + 30) / 3); // 20
+
+  // // document.write(20 + 10 + 30 / 3); // 40
+  // // document.write("A média da idade é " + 20 + 10 + 30 / 3); // A média da idade é 201010
+  // // document.write("A média da idade é " + (20 + 10 + 30) / 3); // A média da idade é 20
+
+  // document.write("<br><br>");
+  // document.write("A soma das idades é " + (20 + 10 + 30)); // A soma das idades é 60
+  // // document.write("A soma das idades é " + 20 + 10 + 30); // A soma das idades é 201030
+
+  // document.write("<br><br>");
+
+  // document.write("Flávio nasceu em " + (2016 - 39));
+  // document.write("<br>");
+  // document.write("Joaquim nasceu em " + (2016 - 20));
+  // document.write("<br>");
+  // document.write("Barney nasceu em " + (2016 - 40));
+  // document.write("<br>");
+
+  // document.write("<br><br>");
+
+  // let puloLinha = "<br>";
+
+  // let ano = 2016;
+  // document.write("Flávio tem " + (ano - 1977) + " anos");
+  // document.write("<br>");
+  // document.write("Joaquim tem " + (ano - 1996) + " anos");
+  // document.write("<br>");
+
+  // ano = 2017;
+  // document.write("Barney tem " + (ano - 1976) + " anos");
+  // document.write("<br>");
+
+  // let idadeFlavio = 39;
+  // let idadeJoaquim = 20;
+  // let idadeBarney = 41;
+  // let media = (idadeFlavio + idadeJoaquim + idadeBarney) / 3;
+  // document.write("A média das idades é " + Math.round(media));
+  // document.write(puloLinha);
+  // let nome = "Flávio";
+  // document.write("A idade de " + nome + " é " + idadeFlavio);
+
+  function pulaLinha() {
+    document.write("<br>");
+    document.write("<br>");
+  }
+
+  function mostra(frase) {
+    document.write(frase);
+    pulaLinha();
+  }
+
+  let ano = 2016;
+
+  mostra("Flávio tem " + (ano - 1977) + " anos");
+  mostra("Joaquim tem " + (ano - 1996) + " anos");
+
+  ano = 2017;
+
+  mostra("Barney tem " + (ano - 1976) + " anos");
+
+  // mostra() // undefined
+</script>

@@ -1,0 +1,33 @@
+<canvas width="600" height="400"></canvas>
+
+<script>
+  let tela = document.querySelector("canvas");
+  let pincel = tela.getContext("2d");
+  pincel.fillStyle = "grey";
+  pincel.fillRect(0, 0, 600, 400);
+
+  function desenhaCirculo(evento) {
+    let x = evento.pageX - tela.offsetLeft;
+    let y = evento.pageY - tela.offsetTop;
+    pincel.fillStyle = cores[posicao];
+    pincel.beginPath();
+    pincel.arc(x, y, 10, 0, 2 * 3.14);
+    pincel.fill();
+    // console.log(x + "," + y); -> mostra os valores do eixo x e y
+  }
+
+  tela.onclick = desenhaCirculo;
+
+  let cores = ["blue", "red", "green"];
+  let posicao = 0;
+
+  function mudaCor() {
+    posicao++;
+    if (posicao == cores.length) {
+      posicao = 0;
+    }
+    return false;
+  }
+
+  tela.oncontextmenu = mudaCor;
+</script>

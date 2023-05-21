@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap");
+
+:root {
+  --input-color: #db1e8c;
+  --input-text-color: #ff97d3;
+  --body-bg-color: #33475b;
+  --light-color: #ffffff;
+  --dark-color: #000000;
+  --button-color: #264fec;
+  --title-color: #0000ee;
+  --secondary-titles-color: #364372;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--body-bg-color);
+}
+
+.content__wrapper {
+  max-width: 1280px;
+  width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* HEADER ----------------- */
+
+header {
+  height: 80px;
+  background-color: var(--light-color);
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: var(--title-color);
+}
+
+header label {
+  background-color: var(--input-color);
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  padding: 12px 8px;
+  border-radius: 4px;
+}
+
+header input {
+  background-color: transparent;
+  border: none;
+  outline: transparent;
+}
+
+header input,
+::placeholder {
+  color: var(--input-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+/* MAIN ----------------- */
+
+main {
+  margin-top: 80px;
+  padding: 37px 0 142px;
+  display: flex;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.card {
+  padding: 32px;
+  background-color: var(--light-color);
+  max-width: 400px;
+  min-height: 444px;
+  position: relative;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+
+.card h2 {
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 31px;
+  color: var(--secondary-titles-color);
+}
+
+.card a {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: var(--button-color);
+  border: 1px solid var(--button-color);
+  border-radius: 4px;
+
+  padding: 14px 18px;
+
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 32px;
+  transition: 0.4s;
+}
+
+.card a:hover {
+  background-color: var(--button-color);
+  color: var(--light-color);
+}
+
+/* FOOTER ----------------- */
+
+footer {
+  height: 110px;
+  background-color: var(--light-color);
+  display: flex;
+  text-align: center;
+}
+
+.footer__logo {
+  display: flex;
+  gap: 24px;
+}
+
+.footer__content {
+  display: flex;
+  align-items: center;
+  gap: 54px;
+}
+
+.footer__text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: left;
+}
+
+.footer__text a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--dark-color);
+}
+
+.social__icons {
+  display: flex;
+  gap: 16px;
+}
+
+@media only screen and (max-width: 1279px) {
+  header {
+    padding-inline: 16px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  footer {
+    height: fit-content;
+    justify-content: center;
+  }
+
+  .footer__logo,
+  .footer__content,
+  .footer__text,
+  .social__icons {
+    gap: 0;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer img:not(.social__icons img) {
+    scale: 0.6;
+  }
+
+  footer img,
+  footer a,
+  footer p {
+    scale: 0.8;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  header h1,
+  footer p {
+    display: none;
+  }
+}

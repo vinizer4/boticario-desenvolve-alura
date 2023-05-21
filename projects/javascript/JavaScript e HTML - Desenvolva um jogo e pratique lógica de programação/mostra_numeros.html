@@ -1,0 +1,29 @@
+<meta charset="UTF-8" />
+
+<!-- Preparado(a) para um exercício que fará você quebrar a cabeça um pouquinho? Então vamos lá:
+
+Roberta é apaixonada por números e resolveu “brincar” com a instrução while. Ela utilizou while para imprimir todos os números pares de 1 a 100, um embaixo do outro, e ao final imprimiu a palavra "FIM".
+
+Como ficou o código de Roberta? Escolha a alternativa correta!
+
+DICA: incremente o contador de dois em dois! -->
+
+<script>
+  function pulaLinha() {
+    document.write("<br>");
+    document.write("<br>");
+  }
+
+  function mostra(frase) {
+    document.write(frase);
+    pulaLinha();
+  }
+
+  contador = 2;
+  while (contador <= 100) {
+    mostra(contador);
+    contador = contador + 2;
+  }
+
+  mostra("FIM");
+</script>

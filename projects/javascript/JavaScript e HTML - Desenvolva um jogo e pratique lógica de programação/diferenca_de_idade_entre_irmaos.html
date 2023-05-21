@@ -1,0 +1,24 @@
+<meta charset="UTF-8" />
+
+<!-- Quantos anos você tem de diferença do seu irmão?
+
+Carlos foi desafiado por sua irmã Ana a desenvolver um código que exibisse a mensagem "Nossa diferença de idade é", e realizasse a concatenação do resultado da subtração da sua idade com a do seu irmão (ou de um amigo). O resultado pode ser negativo, sem dúvida. Para desenvolver esse código, não se pode esquecer de usar as funções pulaLinha e mostra e inclusive a tag <meta> para manter as boas práticas de programação.
+
+Como informação adicional: Carlos tem 18 anos e Ana tem 15 anos. -->
+
+<script>
+  function pulaLinha() {
+    document.write("<br>");
+  }
+
+  function mostra(frase) {
+    document.write(frase);
+    pulaLinha();
+  }
+
+  let idadeCarlos = 18;
+  let idadeAna = 15;
+  let diferencaIdade = idadeCarlos - idadeAna;
+
+  mostra("Nossa diferença de idade é " + diferencaIdade);
+</script>

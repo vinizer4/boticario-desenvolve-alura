@@ -1,0 +1,38 @@
+<meta charset="UTF-8" />
+
+<!-- Emanuelle estava ajudando seus colegas a se prepararem para a próxima prova de lógica de programação. Eles pediram para que ela resolvesse a seguinte questão que era certo que cairia na prova: "ler do mundo HTML um texto digitado pelo usuário e no clique de um botão exibir o que foi digitado".
+
+Ela começou pela estrutura mínima de todo o programa:
+
+Depois, adicionou um campo de entrada e um botão com as tag's <input/> e <button>, respectivamente:
+
+Depois, buscou do mundo JavaScript a tag <input/> lá do mundo HTML. Ela explicou que isso era necessário, pois só assim o JavaScript seria capaz de ler o que está escrito no <input>:
+
+Na sequência ela explicou que precisa programar dentro de uma função quais instruções devem ser executadas quando o botão for clicado. O problema é que ela criou apenas a função, não as instruções. Sua intenção é terminá-la no final:
+
+Em seguida, com muita calma, ela disse que a função exibeTexto precisa ser chamada pelo botão e que, primeiro, ela precisa obter lá do mundo HTML o botão e realizar a associação:
+
+Veja que nesta última mudança, ela associou a função ao button.onclick. Com essa associação, toda vez que o botão for clicado ele executará o exibeTexto, é como se, por debaixo dos panos, o navegador fizesse exibeTexto() toda vez que o botão é clicado.
+
+Mas, quando Emanuelle começou a explicar o código da função exibeTexto sua aula começou e ela teve que correr para dentro de sala.
+
+E agora? Será que seus amigos conseguem terminar o código?
+
+Qual das opções abaixo possui o código completo da função exibeTexto? Mas é preciso que o código funcione conforme esperado, que é exibir um alerta para o usuário. -->
+
+<input />
+<button>Clique-me</button>
+
+<script>
+  let input = document.querySelector("input");
+  let button = document.querySelector("button");
+
+  input.focus();
+
+  function exibeTexto() {
+    alert(input.value);
+    location.reload();
+  }
+
+  button.onclick = exibeTexto;
+</script>

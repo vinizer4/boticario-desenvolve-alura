@@ -1,0 +1,62 @@
+<canvas width="600" height="400"></canvas>
+
+<!-- Esse exercício tem duas partes: a primeira parte é uma atividade mão na massa. Depois de realizar essa primeira etapa, você deve responder ao exercício de única escolha. Vamos lá? O Johann é um menino de 11 anos e adora jogar Minecraft. Minecraft é aquele jogo onde você constrói um mundo com blocos, como se fosse um Lego virtual. Ele gosta tanto que pediu um pôster de uma das personagens principais do jogo: o Creeper. O Creeper na verdade é um monstro (que explode ao se aproximar de um jogador).
+
+Será que você consegue (re)criar a imagem e desenhar a cabeça do Creeper?
+
+Siga os passos a seguir :
+
+Criar um novo arquivo, por exemplo creeper.html.
+Definir a tag canvas.
+Criar um script com tela e pincel.
+Desenhar os retângulos através da função fillRect do pincel.
+Não esquecer de pintar os retângulos, aqui usamos as cores darkgreen e black.
+Na tentativa de desenhar essa figura, uma observação importante: o desenho é composto de retângulos! São 6 retângulos!
+
+Para facilitar um pouco mais, segue o tamanho (largura, altura) em pixels de cada retângulo:
+
+Retângulo 1: 350, 300 (cabeça).
+Retângulos 2 e 3: 90, 90 (olhos).
+Retângulo 4: 70, 100 (nariz).
+Retângulos 5 e 6: 40, 110 (parte da boca).
+O seu canvas deve ter o tamanho de 600 x 400 pixels. -->
+
+<script>
+  // MINHA RESPOSTA
+  let canvas = document.querySelector("canvas");
+  let pincel = canvas.getContext("2d");
+
+  pincel.fillStyle = "lightgray";
+  pincel.fillRect(0, 0, 600, 400);
+
+  pincel.fillStyle = "darkgreen";
+  pincel.fillRect(125, 50, 350, 300);
+
+  pincel.fillStyle = "black";
+  pincel.fillRect(175, 110, 90, 90);
+  pincel.fillRect(335, 110, 90, 90);
+  pincel.fillRect(265, 200, 70, 100);
+  pincel.fillRect(225, 240, 40, 110);
+  pincel.fillRect(335, 240, 40, 110);
+</script>
+
+<!-- <script>
+  var tela = document.querySelector("canvas");
+  var pincel = tela.getContext("2d");
+
+  // cabeça
+  pincel.fillStyle = "darkgreen";
+  pincel.fillRect(200, 50, 350, 300);
+
+  // olhos
+  pincel.fillStyle = "black";
+  pincel.fillRect(250, 110, 90, 90);
+  pincel.fillRect(410, 110, 90, 90);
+
+  // nariz
+  pincel.fillRect(340, 200, 70, 100);
+
+  // boca ou barba
+  pincel.fillRect(300, 240, 40, 110);
+  pincel.fillRect(410, 240, 40, 110);
+</script> -->

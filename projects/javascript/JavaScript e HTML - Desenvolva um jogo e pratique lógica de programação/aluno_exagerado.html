@@ -1,0 +1,53 @@
+<meta charset="UTF-8" />
+
+<!-- Daniel sempre foi muito exagerado. Em sua versão particular do jogo da adivinhação, quando o usuário erra o chute, são exibidos na tela dez avisos de que ele errou.
+
+Além de exagerado, Daniel também é perfeccionista e nunca está satisfeito com a mensagem exibida para o usuário. Vira e mexe ele altera o conteúdo da mensagem para outro texto.
+
+Repare que as dez instruções mostra são iguais.
+
+Ajude Daniel marcando a opção que contem outra maneira de exibir o mostra("Já era, você errou!") 10 vezes! Dessa maneira, ele precisará alterar o texto em apenas um lugar. -->
+
+<script>
+  function pulaLinha() {
+    document.write("<br>");
+  }
+
+  function mostra(frase) {
+    document.write(frase);
+    pulaLinha();
+  }
+
+  function sorteia() {
+    return Math.round(Math.random() * 100);
+  }
+
+  var numeroPensado = sorteia();
+
+  var chute = parseInt(prompt("Já pensei. Qual você acha que é?"));
+
+  // if (chute == numeroPensado) {
+  //   mostra("Uau! Você acertou, pois eu pensei no " + numeroPensado);
+  // } else {
+  //   mostra("Você errou!");
+  //   mostra("Você errou!");
+  //   mostra("Você errou!");
+  //   mostra("Você errou!");
+  //   mostra("Você errou!");
+  //   mostra("Você errou!");
+  //   mostra("Você errou!");
+  //   mostra("Você errou!");
+  //   mostra("Você errou!");
+  //   mostra("Você errou!");
+  // }
+
+  if (chute == numeroPensado) {
+    mostra("Uau! Você acertou, pois eu pensei no " + numeroPensado);
+  } else {
+    let contador = 1;
+    while (contador <= 10) {
+      mostra("Já era, você errou!");
+      contador++;
+    }
+  }
+</script>

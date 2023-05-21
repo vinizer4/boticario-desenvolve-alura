@@ -1,0 +1,26 @@
+<meta charset="UTF-8" />
+
+<!-- Agora é sua vez. Roberta lançou o desafio para você imprimir em ordem decrescente todos os números entre 20 e 0, incluindo os limites! No final, escreva a palavra "FIM".
+
+DICA: você pode decrementar uma variável! -->
+
+<script>
+  function pulaLinha() {
+    document.write("<br>");
+    document.write("<br>");
+  }
+
+  function mostra(frase) {
+    document.write(frase);
+    pulaLinha();
+  }
+
+  contador = 20;
+
+  while (contador >= 0) {
+    mostra(contador);
+    contador--;
+  }
+
+  mostra("FIM");
+</script>

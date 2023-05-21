@@ -1,0 +1,70 @@
+<canvas width="600" height="400"></canvas>
+
+<!-- Já praticamos bastante com retângulos, agora é hora de desenhar uma outra figura. Nesse exercício a tarefa é desenhar um esquadro!
+
+Repare que isso é nada mais do que dois triângulos, um dentro do outro. Lembrando também que desenhar um triângulo é diferente de um retângulo, pois é preciso desenhar linha por linha. Em outras palavras, a API é diferente!
+
+Para desenhar é preciso inicializar um path e mover o pincel para uma posição:
+
+var tela = document.querySelector('canvas');
+var pincel = tela.getContext('2d');
+
+pincel.beginPath();
+pincel.moveTo(50, 50);
+
+A partir daí podemos desenhar uma linha:
+
+var tela = document.querySelector('canvas');
+var pincel = tela.getContext('2d');
+
+pincel.beginPath();
+pincel.moveTo(50, 50);
+pincel.lineTo(50, 400);
+
+Tendo todas as linhas desenhadas, podemos preencher a figura:
+
+pincel.fill();
+
+Agora é com você!
+
+Como ficará o código completo do esquadro? Escolha a alternativa correta!
+
+Dica: Com as coordenadas em mãos é só mover o pincel para o lugar certo. É importante ressaltar que devemos começar um novo path para cada triângulo -->
+
+<script>
+  // MINHA RESPOSTA
+  let canvas = document.querySelector("canvas");
+  let pincel = canvas.getContext("2d");
+
+  pincel.beginPath();
+  pincel.moveTo(50, 50);
+  pincel.lineTo(50, 400);
+  pincel.lineTo(400, 400);
+  pincel.fill();
+
+  pincel.fillStyle = "white";
+  pincel.beginPath();
+  pincel.moveTo(100, 175);
+  pincel.lineTo(100, 350);
+  pincel.lineTo(275, 350);
+  pincel.fill();
+</script>
+
+<!-- <canvas width="600" height="400"></canvas>
+<script>
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d');
+    pincel.fillStyle='black';
+    pincel.beginPath();
+    pincel.moveTo(50, 50);
+    pincel.lineTo(50, 400);
+    pincel.lineTo(400, 400);
+    pincel.fill();
+
+    pincel.fillStyle='white';
+    pincel.beginPath();
+    pincel.moveTo(100, 175);
+    pincel.lineTo(100, 350);
+    pincel.lineTo(275, 350);
+    pincel.fill();
+</script> -->
