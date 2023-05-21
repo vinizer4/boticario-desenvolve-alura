@@ -59,21 +59,106 @@ A proposta e finalizar o projeto até o final do programa, atualmente está em d
     </div>
     <br>
     <br>
+<span id="projetos"></span>
 
+  <h2>Meus projetos</h2>
 
-| Semana  | Curso                                                                                           |	
+  <p>
+    Esse repositório tem como objetivo documentar minha trajetória durante o
+    programa desenvolve.
+  </p>
+  <br />
+
+  <table>
+    <thead>
+      <tr>
+        <th align="center">#</th>
+        <th align="center">Projeto</th>
+        <th align="center">Online</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>01</td>
+        <td><a href="./projects/barbearia__alura/README.md">Barbearia</a></td>
+        <td align="center">
+          <a href="https://vinizer4.github.io/BoticarioDesenvolveAlura/projects/barbearia__alura"
+            ><img width="400px" src="./.github/barbearia__preview.png"
+          /></a>
+        </td>
+      </tr>
+      <tr>
+        <td>02</td>
+        <td><a href="./projects/alurinha__alura/README.md">Alurinha</a></td>
+        <td align="center">
+          <a href="https://vinizer4.github.io/BoticarioDesenvolveAlura/projects/alurinha__alura/"
+            ><img width="400px" src="./.github/alurinha__preview.png"
+          /></a>
+        </td>
+      </tr>
+      <tr>
+        <td>03</td>
+        <td><a href="./projects/apeperia__alura/README.md">Apeperia</a></td>
+        <td align="center">
+          <a href="https://vinizer4.github.io/BoticarioDesenvolveAlura/projects/apeperia__alura"
+            ><img width="400px" src="./.github/apeperia__preview.png"
+          /></a>
+        </td>
+      </tr>
+      <tr>
+        <td>04</td>
+        <td><a href="./projects/monitoria__01/README.md">Monitoria 01</a></td>
+        <td align="center">
+          <a href="https://vinizer4.github.io/BoticarioDesenvolveAlura/projects/monitoria__01"
+            ><img width="400px" src="./.github/monitoria__01__preview.png"
+          /></a>
+        </td>
+      </tr>
+      <tr>
+        <td>05</td>
+        <td><a href="./projects/midi__alura/README.md">Alura MIDI</a></td>
+        <td align="center">
+          <a href="https://vinizer4.github.io/BoticarioDesenvolveAlura/projects/midi__alura"
+            ><img width="400px" src="./.github/midi__preview.png"
+          /></a>
+        </td>
+      </tr>
+      <tr>
+        <td>06</td>
+        <td><a href="./projects/telefone__alura/README.md">Alura FONE</a></td>
+        <td align="center">
+          <a href="https://vinizer4.github.io/BoticarioDesenvolveAlura/projects/telefone__alura"
+            ><img width="400px" src="./.github/alurafone__preview.png"
+          /></a>
+        </td>
+      </tr>
+      <tr>
+        <td>07</td>
+        <td><a href="./projects/robotron__2000/README.md">Robotron 2000</a></td>
+        <td align="center">
+          <a href="https://vinizer4.github.io/BoticarioDesenvolveAlura/projects/robotron__2000"
+            ><img width="400px" src="./.github/robotron__preview.png"
+          /></a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <br />
+
+| Semana  | Curso                                                                                           |
 |:-------:|-------------------------------------------------------------------------------------------------|
-| 01.     | HTML e CSS parte 1: crie um página da Web 
-| 01.     | HTML e CSS parte 2: posicionamento, listas e navegação.          	                    
+| 01.     | HTML e CSS parte 1: crie um página da Web
+| 01.     | HTML e CSS parte 2: posicionamento, listas e navegação.
 | 02.	  | HTML e CSS parte 3: trabalhando com formulários e tabelas
 | 02.     | HTML e CSS parte 4: avançando no CSS
 | 03.     | Flexbox: posicione elementos na tela
-| 03.     | Layouts Responsivos: trabalhando com layouts mobile        
+| 03.     | Layouts Responsivos: trabalhando com layouts mobile
 | 04.     | Figma: construindo o layout do seu site mobile
 | 04.     | Figma: conhecendo componentes da interface
 | 05.     | Figma: projete sites para diversas telas
 | 05.     | Design System: projetando elementos
-| 06.     | Design System: criando componentes e documentando 
+| 06.     | Design System: criando componentes e documentando
 | 06.     | Figma: trabalhando na construção de um Design System
 | 07.     | Tipografia: conhecendo o que há por trás dos tipos
 | 07.     | HTTP: Entendendo a web por baixo dos panos
@@ -81,8 +166,8 @@ A proposta e finalizar o projeto até o final do programa, atualmente está em d
 | 09.     | Javascript e HTML: pratique lógica com desenhos, animações e um jogo
 | 09.     | Arquitetura de computadores: por trás de como seu programa funciona
 | 10.     | JavaScript: tipos, variáveis e funções
-| 10.     | JavaScript: Arrays 
-| 11.     | JavaScript: objetos 
+| 10.     | JavaScript: Arrays
+| 11.     | JavaScript: objetos
 | 12.     | JavaScript para Web: Crie páginas dinâmicas
 | 12.     | JavaScript: manipulando o DOM
 | 13.     | Git e GitHub: repositório, commit e versões
